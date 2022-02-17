@@ -25,6 +25,10 @@ make clean && make
 
 # 切換gcc
 
+gcc -v   //查看版本
+
+g++ -v   //查看版本
+
 sudo apt-get install -y gcc-7
 
 sudo apt-get install -y g++-7
