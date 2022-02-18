@@ -1,3 +1,18 @@
+# 安裝顯示卡驅動
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+sudo apt update
+
+ubuntu-drivers devices
+
+sudo ubuntu-drivers autoinstall
+
+sudo reboot now
+
+nvidia-smi
+
+
 # cuda可執行後
 
 sudo apt install freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libgl1-mesa-glx libglu1-mesa libglu1-mesa-dev
@@ -56,7 +71,8 @@ export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PAT
 
 cat /usr/local/cuda/version.txt
 
-＃ 切換cuda
+
+# 切換cuda
 
 sudo rm -rf /usr/local/cuda  
 
