@@ -94,5 +94,19 @@ make clean && make
 
 ./mnistCUDNN 
 
+# 安裝python3
+
+sudo apt install python3-dev python3-pip python3-venv
+
+python3 -m venv --system-site-packages ./venv #設定python虛擬環境
+
+source ./venv/bin/activate ＃進入虛擬環境
+
+pip install --upgrade pip ＃進入環境後先升級pip
+
+# python版本 cuda cudnn tensorflow對照
+
+https://www.tensorflow.org/install/source#linux
+
 
 
