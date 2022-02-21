@@ -96,6 +96,10 @@ make clean && make
 
 # 安裝python3
 
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+sudo apt-get install python3.6
+
 sudo apt install python3-dev python3-pip python3-venv
 
 sudo apt install python3-virtualenv
