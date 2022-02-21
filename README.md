@@ -98,7 +98,11 @@ make clean && make
 
 sudo apt install python3-dev python3-pip python3-venv
 
-python3 -m venv --system-site-packages ./venv #設定python虛擬環境
+sudo apt install python3-virtualenv
+
+python3 -m venv --system-site-packages ./venv #設定python虛擬環境1
+
+virtualenv --system-site-packages --python=/usr/bin/python3.6 ./venv1 #設定python虛擬環境2
 
 source ./venv/bin/activate ＃進入虛擬環境
 
@@ -112,7 +116,16 @@ https://www.tensorflow.org/install/source#linux
 ![2022-02-21 16-11-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154914482-726aedaa-dca7-4d6c-bfae-cb66ab01ba3b.png)
 
 
+# 安裝其他版本的python
+
 ![2022-02-21 16-33-07 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154917537-b0982614-6205-4608-b341-b33280910e06.png)
+
+
+# 安裝tensorflow問題
+
+![2022-02-21 17-10-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154923578-c869dd7d-5bf8-4306-8c1d-24162c379589.png)
+
+![2022-02-21 17-48-16 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154930090-226f763d-f6a8-42e5-96f7-17921245abba.png)
 
 
 
