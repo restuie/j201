@@ -109,4 +109,5 @@ pip install --upgrade pip ＃進入環境後先升級pip
 https://www.tensorflow.org/install/source#linux
 
 
+![2022-02-21 16-11-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154914482-726aedaa-dca7-4d6c-bfae-cb66ab01ba3b.png)
 
