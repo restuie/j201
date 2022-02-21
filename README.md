@@ -108,25 +108,5 @@ source ./venv/bin/activate ＃進入虛擬環境
 
 pip install --upgrade pip ＃進入環境後先升級pip
 
-# python版本 cuda cudnn tensorflow對照
-
-https://www.tensorflow.org/install/source#linux
-
-
-![2022-02-21 16-11-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154914482-726aedaa-dca7-4d6c-bfae-cb66ab01ba3b.png)
-
-
-# 安裝其他版本的python
-
-![2022-02-21 16-33-07 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154917537-b0982614-6205-4608-b341-b33280910e06.png)
-
-
-# 安裝tensorflow問題
-
-![2022-02-21 17-10-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154923578-c869dd7d-5bf8-4306-8c1d-24162c379589.png)
-
-![2022-02-21 17-48-16 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154930090-226f763d-f6a8-42e5-96f7-17921245abba.png)
-
-
-
+pip install --upgrade tensorflow-gpu==1.15.0
 
