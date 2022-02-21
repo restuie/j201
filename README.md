@@ -111,3 +111,9 @@ https://www.tensorflow.org/install/source#linux
 
 ![2022-02-21 16-11-03 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154914482-726aedaa-dca7-4d6c-bfae-cb66ab01ba3b.png)
 
+
+![2022-02-21 16-33-07 的螢幕擷圖](https://user-images.githubusercontent.com/67223557/154917537-b0982614-6205-4608-b341-b33280910e06.png)
+
+
+
+
