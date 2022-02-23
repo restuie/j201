@@ -23,9 +23,12 @@ sudo ./cuda_10.0.130_410.48_linux.run -toolkit -samples -silent -override
 
 vim ~/.bashrc
 
-export PATH=/usr/local/cuda-10.0/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-:q
+export CUDA_HOME=/usr/local/cuda
+
+export PATH=$PATH:$CUDA_HOME/bin
+
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
 
 source ~/.bashrc
 
