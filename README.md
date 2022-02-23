@@ -117,3 +117,14 @@ pip install --upgrade pip ＃進入環境後先升級pip
 
 pip install --upgrade tensorflow-gpu==1.15.0
 
+# 驗證tensorflow
+#python3 
+
+import tensorflow as tf 
+
+hello = tf.constant('Hello, TensorFlow!’) 
+
+sess = tf.Session() 
+
+print(sess.run(hello))
+
